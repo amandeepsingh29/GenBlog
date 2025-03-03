@@ -8,7 +8,7 @@ from duckduckgo_search import DDGS
 import os
 
 # Set Google Gemini API Key (Replace with your actual key)
-os.environ["GOOGLE_API_KEY"] = "your_api_key_here"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBwCjIbg7VFJss14VNtGq5PaPeB70NA4W4" # I know that i have uploaded this on github 
 
 # Initialize Language Model
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.7, google_api_key=os.getenv("GOOGLE_API_KEY"))
