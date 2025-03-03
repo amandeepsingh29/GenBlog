@@ -19,7 +19,7 @@ The AI Blog Generator is a Streamlit-based web application that creates structur
 1. Clone the repository:
    ```bash
    https://github.com/amandeepsingh29/GenBlog.git
-   cd ai-blog-generator
+   cd GenBlog
    ```
 2. Install dependencies:
    ```bash
